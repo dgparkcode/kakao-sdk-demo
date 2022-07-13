@@ -8,9 +8,4 @@ sealed class UserAuthState {
 
         object Canceled : LoginState()
     }
-
-    sealed class LogoutState {
-
-        object LoggedOut : LogoutState()
-    }
 }

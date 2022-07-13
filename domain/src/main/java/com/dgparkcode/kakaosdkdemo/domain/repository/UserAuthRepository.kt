@@ -7,5 +7,5 @@ interface UserAuthRepository {
 
     suspend fun login(): Result<UserAuthState.LoginState>
 
-    suspend fun logout(): Result<UserAuthState.LogoutState>
+    suspend fun logout(): Result<Unit>
 }
