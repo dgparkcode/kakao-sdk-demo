@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Kakao SDK demo</string>
+    <string name="login_btn_label">로그인</string>
 </resources>
